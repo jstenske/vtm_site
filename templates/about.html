@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %} About {% endblock %}
+
+
+{% block body %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+<section>
+    <h1>
+        <p style="text-align: center;">About</p>
+    </h1>
+</section>
+<section>
+    <nav>
+        <div style="text-align: center;">
+            <a href="./">Home</a>
+            <a href="./about">About</a>
+            <a href="./estimate">Estimator</a>
+        </div>
+    </nav>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas eu sapien nec lobortis. Praesent quis
+        fermentum nunc. Sed pharetra non sem quis feugiat. Cras quam tellus, ultricies a dui ac, lobortis finibus mi.
+        Aenean vel lobortis odio, in pulvinar lacus. Duis consequat sem id nisl efficitur, sed semper metus porta.
+        Curabitur sed diam vel eros iaculis dapibus quis a dui. Ut lobortis purus non faucibus mattis. Praesent
+        porttitor non eros ut blandit. Nulla arcu massa, volutpat vitae est ut, vehicula tempus ex. Nulla maximus risus
+        sit amet dolor malesuada, sed dignissim felis aliquam. Integer et augue at dui scelerisque pellentesque. Nam vel
+        ante nec mi porttitor efficitur. Integer gravida ex quis lectus gravida gravida.
+    </p>
+    <p>
+        Fusce ultrices luctus sodales. Aliquam molestie malesuada tristique. Nam rhoncus lacinia dui, vel sollicitudin
+        ipsum maximus sit amet. Mauris mauris turpis, iaculis non tincidunt mattis, sagittis eget lacus. Duis cursus
+        augue at orci lobortis, ut congue sem porta. In malesuada sapien vel arcu aliquet sagittis. Cras mauris erat,
+        placerat et interdum at, rhoncus sed sem. Nunc diam mauris, pellentesque sed eros ac, interdum sagittis tortor.
+        Donec auctor arcu odio, a tincidunt diam sollicitudin at. Etiam pharetra varius nisi bibendum consectetur.
+        Suspendisse potenti. Integer aliquam felis ac porta egestas. Ut eget tellus ipsum.
+
+    </p>
+    <p>
+        Proin euismod quis ipsum vitae scelerisque. Sed fringilla laoreet nulla et efficitur. Phasellus tortor arcu,
+        iaculis non augue nec, malesuada eleifend metus. Proin egestas ligula a tristique consequat. Duis at aliquam
+        arcu. Phasellus at ligula et dolor suscipit rhoncus. Integer sed nibh nec nibh rutrum fringilla. Duis accumsan
+        ultricies quam, nec dictum elit molestie nec. Donec gravida, dolor id ullamcorper auctor, erat felis consequat
+        arcu, vel imperdiet nibh erat a dui. Donec iaculis, metus in aliquam vestibulum, urna odio sagittis erat, at
+        venenatis tellus nunc tempor magna. Nunc vel aliquam nulla, et varius enim. Donec a elit et tortor finibus
+        consequat lobortis vel odio. Suspendisse faucibus tortor id erat ultrices porttitor quis quis neque.
+    </p>
+    <p>
+        Nam fermentum feugiat maximus. Integer quis egestas nunc. Suspendisse eu rhoncus quam, eu venenatis lectus.
+        Aenean suscipit id libero vel lobortis. Vivamus sodales, mauris eu egestas luctus, metus quam tempus felis, sit
+        amet imperdiet lorem metus nec turpis. Sed vitae risus id diam consectetur faucibus sed vehicula est.
+        Suspendisse ligula purus, dapibus id sapien sed, pulvinar dictum lectus. Vestibulum auctor lacus ac sapien
+        lacinia convallis. Aliquam erat volutpat. Etiam nisi velit, blandit at volutpat et, accumsan quis dolor.
+    </p>
+    </p>
+
+    {% endblock %}

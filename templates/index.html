@@ -3,4 +3,58 @@
 {% block title %} Welcome to the home page {% endblock %}
 
 
-{% block body %} Hello world! {% endblock %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+</head>
+<header>
+
+    <body>
+        <div style="text-align:center" ;>
+            <h1>Welcome to VTM!</h1>
+        </div>
+        <hr>
+        <br>
+        <div style="text-align: center" ;>
+            <a href="./">Home</a>
+            <a href="./about">About</a>
+            <a href="./estimate">Estimator</a>
+
+
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla, metus elementum facilisis
+            fermentum, eros sem tempus risus, sed ultricies sapien augue id ipsum. Vivamus in vehicula diam. Sed semper
+            tortor sit amet quam lobortis malesuada. Proin a mi sed erat euismod venenatis id posuere ipsum. Cras
+            bibendum luctus dolor, quis vestibulum dolor vestibulum in. Aenean porta ipsum consectetur erat bibendum
+            blandit. Sed quis erat elementum ex placerat hendrerit ut eu metus. Vivamus dictum tortor at dolor eleifend,
+            at dignissim mauris dictum. Vestibulum interdum imperdiet interdum. Suspendisse pretium ultricies nisi eget
+            sollicitudin. Vivamus sagittis porttitor convallis. Morbi ac ultricies diam, id tristique risus. Vestibulum
+            rutrum enim nec ligula faucibus, quis malesuada velit convallis.
+        </p>
+        <p>
+            Nullam laoreet sem non dictum porta. Nunc non auctor elit. Phasellus commodo felis id aliquet vulputate.
+            Curabitur dignissim tempus accumsan. Aliquam quam justo, iaculis a bibendum id, dapibus vel massa. Mauris
+            ullamcorper, mi a ornare convallis, lectus sem commodo ligula, a congue elit dolor eget orci. Integer in
+            enim ut ligula mattis porta. Suspendisse porta sem eget lectus venenatis luctus. Nulla facilisi. Mauris
+            sodales, neque id facilisis sodales, eros enim efficitur magna, ut euismod augue massa eget velit.
+        </p>
+            </div>
+    </body>
+
+
+
+</html>
+
+
+<img src="/static/above_ground_vertical_tanks.jpg" width="200" alt="Photo of above ground vertical tanks" />
+
+
+
+
+{% endblock %}
