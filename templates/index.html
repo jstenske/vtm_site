@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en"></html>
 
     {% extends 'base.html' %}
 
@@ -9,19 +11,19 @@
 
 
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
-</head>
-<header>
 
-    <body>
-        <div style="text-align:center" ;>
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+
+
+
+    
+        <div style="text-align:center" >
             <h1>Welcome to VTM!</h1>
         </div>
         <hr>
         <br>
-        <div style="text-align: center" ;>
+        <div style="text-align: center" >
             <a href="./">Home</a>
             <a href="./about">About</a>
             <a href="./estimate">Estimator</a>
@@ -46,17 +48,4 @@
             enim ut ligula mattis porta. Suspendisse porta sem eget lectus venenatis luctus. Nulla facilisi. Mauris
             sodales, neque id facilisis sodales, eros enim efficitur magna, ut euismod augue massa eget velit.
         </p>
-        </div>
-    </body>
-
-
-
-    </html>
-
-
-
-
-
-
-
-    {% endblock %}
+    </html>{% endblock %}

@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 
-{% block title %} About {% endblock %}
+{% block title %}About{% endblock %}
 
 
 {% block body %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
 <section>
     <h1>
-        <p style="text-align: center;">About</p>
+        <p style="text-align: center;">About </p>
     </h1>
 </section>
 <section>
@@ -18,6 +18,7 @@
             <a href="./estimate">Estimator</a>
         </div>
     </nav>
+</section>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas eu sapien nec lobortis. Praesent quis
         fermentum nunc. Sed pharetra non sem quis feugiat. Cras quam tellus, ultricies a dui ac, lobortis finibus mi.
         Aenean vel lobortis odio, in pulvinar lacus. Duis consequat sem id nisl efficitur, sed semper metus porta.
@@ -51,6 +52,6 @@
         Suspendisse ligula purus, dapibus id sapien sed, pulvinar dictum lectus. Vestibulum auctor lacus ac sapien
         lacinia convallis. Aliquam erat volutpat. Etiam nisi velit, blandit at volutpat et, accumsan quis dolor.
     </p>
-    </p>
+    
 
     {% endblock %}
