@@ -5,7 +5,9 @@
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
 {% block body %}
 
-<h1> <p style="text-align: center;">Create An Estimate</p></h1>
+<h1>
+    <p style="text-align: center;">Create An Estimate</p>
+</h1>
 
 
 <nav>
@@ -19,4 +21,20 @@
     </div>
 
 </nav>
+<form action="/calculate" method="POST">
+    <label for="numOne">
+        Radius: <input type="text" id="numOne" name="numOne" required autofocus>
+    </label>
+    <br><br>
+    <label for="numTwo">
+        Height: <input type="text" id="numTwo" name="numTwo" required>
+    </label>
+
+    <input type="submit" value="Calculate">
+</form>
+
+{% if myValue %}
+<p>The total estimated cost is ${{ myValue }}</p>
+{% endif %}
+
 {% endblock %}
