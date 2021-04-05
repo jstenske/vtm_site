@@ -12,13 +12,7 @@
 
 <nav>
 
-    <div style="text-align: center;">
-        <a href="./">Home</a>
-        <a href="./about">About</a>
-        <a href="./estimate">Estimator</a>
-
-
-    </div>
+   
 
 </nav>
 <form action="/calculate" method="POST">
@@ -30,7 +24,8 @@
         Height (inches): <input type="text" id="numTwo" name="numTwo" required>
     </label>
 
-    <input type="submit" value="Calculate">
+    
+    <button type="submit" class="btn btn-outline-dark">Calculate</button>
 </form>
 
 {% if myValue %}
